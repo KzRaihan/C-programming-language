@@ -1,0 +1,1 @@
+C is a very powerful general purpose programming language, developed in 1970-72 by Dennis Ritchie.
