@@ -5,7 +5,7 @@
 int main()
 {
     printf("Correct or Valid Variable\n");
-    int var = 1;
+    int var = 1; // variable declare and initialization
     int VAR = 20;
     int $var = 2;
     float _var = 3.1416;

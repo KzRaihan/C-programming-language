@@ -1,0 +1,25 @@
+Variable:
+              Variable are container for store data values.
+
+Syntax:
+                Variable type(data type) + variable name = value;
+
+Example:
+              int number = 100;      here, number is variable or container and store 100(value).
+Characteristic of variable:
+           >> Each variable should be given a unique name (Identifier).
+           >> variable can be overwritten.
+
+Rule of Variable:
+ >> Variable names can only consist of letters (both uppercase and lowercase), digits, and underscores(_).
+ >> Names cannot contain whitespaces or special characters like !, #, %, etc (except underscore and dollar sign $).
+>> no comma/blank space
+     Ex: int var iable =10; (Invalid variable)
+           float num ber =  20; (invalid)
+>> Variable name never start with digit or number.
+     Ex: int 1var = 10 (invalid variable)
+>> Variable name never use keyword like, data type(int ,float, char, double, string, bool), condition statement(for, while, do while).
+     Ex: int int=20;
+           float float=3.1416;
+             
+     

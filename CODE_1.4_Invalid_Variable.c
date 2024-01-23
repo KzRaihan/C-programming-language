@@ -12,6 +12,8 @@ int main()
     double var1 &var4 = 4.5000;
     char char = 'A';
     double _var1 &var3 = 6.023;
+    float var.var2 = 5;
+    int dig, num = 9999, 8888;
 
     printf("var     = %d\n", #var);
     printf("int     = %d\n", int);
@@ -20,6 +22,8 @@ int main()
     printf("var1 &var4    = %lf\n", var1 & var4);
     printf("char = %c\n", char);
     printf("_var&var3 = %lf", _var1 & var3);
+    printf("%f", var.var2);
+    printf("%d %d", dig, num);
 
     return 0;
 }
