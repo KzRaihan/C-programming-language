@@ -1,9 +1,9 @@
 /*
 >> learning objectives of Chapter_02
     -> Definition of Instruction
-    -> Type of Instruction
-    -> Operator
-    -> Different type of Operator.
+    -> Type of Instructions
+    -> Operators
+    -> Different type of Operators.
 */
 
 // definition of instruction and type of instructions.
