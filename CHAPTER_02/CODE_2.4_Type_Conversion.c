@@ -5,8 +5,10 @@
      ->General syntax :  (target_type) expression.
 
     -> Type of Type conversion
-       >> Implicit type conversion(To conversion the compiler automatically).
-       >> Explicit type conversion(To conversion the programmer)
+       >> Implicit type conversion(To conversion the compiler automatically) (smaller data convert to big data).
+               >> Eg: int to float,double
+       >> Explicit type conversion(To conversion the programmer) (Bigger data to smaller data).
+               >> Eg: float,double to int
 
 
     performs data type:
