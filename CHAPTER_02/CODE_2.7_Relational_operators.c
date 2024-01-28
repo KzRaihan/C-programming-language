@@ -21,8 +21,8 @@ int main()
     printf("\nEnter two Number:  ");
     scanf("%d %d", &Num1, &Num2);
 
-    // * if Num1 = 80 and Num2 = 90
-    printf("Numbers are Equal              : %d\n", Num1 == Num2); // 0   // *-> Output
+    //   if Num1 = 80 and Num2 = 90
+    printf("Numbers are Equal              : %d\n", Num1 == Num2); // 0   // -> Output
     printf("Numbers are Not Equal          : %d\n", Num1 != Num2); // 1
     printf("Num1 is smaller then Num2      : %d\n", Num1 < Num2);  // 1
     printf("Num1 is smaller than or Equal  : %d\n", Num1 <= Num2); // 1
