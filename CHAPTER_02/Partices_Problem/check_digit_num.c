@@ -1,19 +1,19 @@
 /*
   -> write a program to check if given character is digit or not
-  (Every input by keyword is character)
+  (Every input from    keyword is character)
 
 */
 #include <stdio.h>
 
 int main()
 {
-    char ch;
-    printf("Enter: ");
-    scanf("%c", &ch);
+  char ch;
+  printf("Enter: ");
+  scanf("%c", &ch);
 
-    printf("Enter digit: %d", (ch > '0') & (ch < '9'));
+  printf("Enter digit: %d", (ch >= '0') & (ch <= '9'));
 
-    return 0;
+  return 0;
 }
 /*
 input: (any Alphabet or special symbol not digit)
