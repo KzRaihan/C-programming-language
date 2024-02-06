@@ -1,12 +1,15 @@
 /*
     Type conversion also know as type casting
     -> Definition: It is the process to converting value(variable) one data type to another data.
+    -> float to integer(vice-versa)
+    -> integer to double
 
      ->General syntax :  (target_type) expression.
 
     -> Type of Type conversion
        >> Implicit type conversion(To conversion the compiler automatically) (smaller data convert to big data).
                >> Eg: int to float,double
+
        >> Explicit type conversion(To conversion the programmer) (Bigger data to smaller data).
                >> Eg: float,double to int
 
@@ -37,7 +40,7 @@ int main()
 
     int a = (int)1.999999; // To convert float(1.999999) to int(1).
 
-    printf("Answer of the question: %d\n", a);
+    printf("Answer of the question: %d\n", a); // op : 1
 
     printf("\n\t\tExample: 01\n");
     printf("\n\t----------------------------\n");
@@ -45,8 +48,8 @@ int main()
     float float_value = 3.91;
     int int_value = (int)float_value; // To convert float(float_value) to int(int_value).
 
-    printf("\nfloat Value: %f\n", float_value);
-    printf("int Value: %d\n", int_value);
+    printf("\nfloat Value: %f\n", float_value); // op: 3.91
+    printf("int Value: %d\n", int_value);       // op: 3
 
     printf("\n\t\tExample: 02\n");
     printf("\n\t----------------------------\n");
@@ -68,7 +71,7 @@ int main()
     printf("\n\t\tExample: 01\n");
     printf("\n\t======================\n");
 
-    printf("%.1f\n", 4 / 2.0);
+    printf("Output: %.1f\n", 4 / 2.0);
 
     printf("\n\t\tExample: 02\n");
     printf("\n\t======================\n");

@@ -15,7 +15,7 @@ int main()
 
    int num1 = 10;            // Each variable is LHS and variable value is RHS.
    int num2, num3 = 20;      // here, num3 value is 20
-   float var1 = num3 + num1; // More than value is possible RHS but more than variable is not possible at same value.
+   float var1 = num3 + num1; // More than value is possible RHS but more than variable is not possible at same value in LHS.
    num1 = num2 = num3 = 100;
 
    printf("\nExample of Invalid CASE: \n");
