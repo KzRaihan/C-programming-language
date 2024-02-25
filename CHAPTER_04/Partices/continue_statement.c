@@ -1,6 +1,7 @@
 /*
-    -> particular set of line skip then we use continue statement
-    -> skip the line
+    -> continue keyword is used to ignore one iteration of a loop.
+    -> particular set of line skip then we use continue statement.
+    -> skip or jump the line
 
 */
 #include <stdio.h>
