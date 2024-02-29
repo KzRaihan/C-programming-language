@@ -1,0 +1,39 @@
+/*
+Given 3 numbers A, B and C, Print the minimum and the maximum numbers.
+*/
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2, num3;
+    scanf("%d %d %d", &num1, &num2, &num3);
+
+    // check minimum
+    if (num1 <= num2 && num1 <= num3)
+    {
+        printf("%d ", num1);
+    }
+    else if (num2 <= num1 && num2 <= num3)
+    {
+        printf("%d ", num2);
+    }
+    else
+    {
+        printf("%d ", num3);
+    }
+    // check maximum
+    if (num1 >= num2 && num1 >= num3)
+    {
+        printf("%d ", num1);
+    }
+    else if (num2 >= num1 && num2 >= num3)
+    {
+        printf("%d ", num2);
+    }
+    else
+    {
+        printf("%d ", num3);
+    }
+
+    return 0;
+}
