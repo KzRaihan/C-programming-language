@@ -10,19 +10,19 @@
 
 int main()
 {
-    int num;
+        int num;
 
-    printf("Enter number: ");
-    scanf("%d", &num);
+        printf("Enter number: ");
+        scanf("%d", &num);
 
-    int fact = 1;
-    for (int i = 1; i <= num; i++)
-    {
-        fact = fact * i;
-    }
-    printf("%d is Factorial is : %d\n", num, fact);
+        int fact = 1;
+        for (int i = 1; i <= num; i++)
+        {
+                fact = fact * i;
+        }
+        printf("%d is Factorial is : %d\n", num, fact);
 
-    return 0;
+        return 0;
 }
 
 /*
@@ -33,7 +33,7 @@ int main()
         here,
                 fact = 1
                 num  = 3 (assume)
-    -> initialization part
+    -> initialization part (initialization part run only first time)
             i = 1
     -> condition part
             i <= num
@@ -53,8 +53,7 @@ int main()
         here,
                 fact = 1
                 num  = 3 (assume)
-    -> initialization part
-            i = 2
+                i = 2
     -> condition part
             i <= num
             2 <= 3 true (go to for body)
@@ -72,8 +71,8 @@ int main()
         here,
                 fact = 2
                 num  = 3 (assume)
-    -> initialization part
-            i = 3
+                i = 3
+
     -> condition part
             i <= num
             3 <= 3 true (go to for body)
@@ -91,8 +90,7 @@ int main()
         here,
                 fact = 6
                 num  = 3 (assume)
-    -> initialization part
-            i = 4
+                i = 4
     -> condition part
             i <= num
             4 <= 3 false (out of for loop)

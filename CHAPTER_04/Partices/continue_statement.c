@@ -1,6 +1,6 @@
 /*
-    -> continue keyword is used to ignore one iteration of a loop.
-    -> particular set of line skip then we use continue statement.
+    -> continue keyword is used to ignore some iteration of a loop.
+    -> particular set of line skip or ignore then we use continue statement.
     -> skip or jump the line
 
 */
@@ -18,3 +18,8 @@ int main()
     }
     return 0;
 }
+/*
+  skip or ignore when i = 3
+  o/p:
+      1 2 4 5 6 7 8 9 10 ( except 3)
+*/

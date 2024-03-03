@@ -12,9 +12,9 @@
             do something
         }
 
-        >> initialisation = loop starts here
-        >> condition      = how long loop are do work or termination condition
-        >> update         = increment or decrement
+        >> initialisation = loop starts  (initialization part perform only first time)
+        >> condition      = how long loop are do work or termination condition || (repeatedly run)
+        >> update         = increment or decrement || (repeatedly perform)
 
 */
 #include <stdio.h>
