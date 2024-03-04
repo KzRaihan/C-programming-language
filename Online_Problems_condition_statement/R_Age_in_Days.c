@@ -9,14 +9,14 @@ Note: consider the whole year has 365 days and 30 days per month.
 int main()
 {
     int age_day;
-    scanf("%d", &age_day);
+    scanf("%d", &age_day); /// input count in days
 
     int years, months, days;
-    int whole_year = 365, cont_month = 30;
+    int whole_year = 365, count_month = 30;
 
     years = (age_day / whole_year);
-    months = (age_day % whole_year) / cont_month;
-    days = (age_day % whole_year) % cont_month;
+    months = (age_day % whole_year) / count_month;
+    days = (age_day % whole_year) % count_month;
 
     printf("%d years\n", years);
     printf("%d months\n", months);
@@ -50,9 +50,9 @@ int main()
             * calculation months
         age_day = 400
         whole_year = 365
-        cont_month = 30
+        count_month = 30
 
-    months = (age_day % whole_year) / cont_month;
+    months = (age_day % whole_year) / count_month;
 
                 365 ) 400 ( 1 <- this is years
                       365
@@ -66,9 +66,9 @@ int main()
             * calculation days
         age_day = 400
         whole_year = 365
-        cont_month = 30
+        count_month = 30
 
-    days = (age_day % whole_year) % cont_month;
+    days = (age_day % whole_year) % count_month;
 
                 365 ) 400 ( 1 <- this is years
                       365
@@ -85,6 +85,8 @@ int main()
 
 
         print : years = 1
+        print : month = 1
+        print : days  = 5
 
 
 
