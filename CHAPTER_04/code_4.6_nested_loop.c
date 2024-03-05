@@ -84,7 +84,7 @@ int main()
                   when j becomes 11 then go to outer loop
 
                               * 2nd iteration
-                                   i = 2
+                                  * i = 2 (increment i)
                               ---------------------------
                         to performs repeated work inner loop
                                          * print: 1 2 3 4 5 6 7 8 9 10
@@ -94,8 +94,7 @@ int main()
 
 
    * until performing when i becomes 16
-
-
+                    then print 15 times
 
 
 
