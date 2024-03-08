@@ -1,0 +1,1 @@
+#define F(x) x*x*x*+4*x*x-10

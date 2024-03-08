@@ -40,7 +40,7 @@ int main()
 {
     int arr[5]; // array declare and array size = 5.
 
-    // Accessing array element using array index
+    // input array
     printf("Enter the first value: ");
     scanf("%d", &arr[0]);
 
@@ -56,6 +56,7 @@ int main()
     printf("\nEnter the five value: ");
     scanf("%d", &arr[4]);
 
+    // Accessing array element (o/p) using array index
     printf("\nFirst Element in array : %d", arr[0]);
     printf("\nsecond Element in array: %d", arr[1]);
     printf("\nThird Element in array : %d", arr[2]);
