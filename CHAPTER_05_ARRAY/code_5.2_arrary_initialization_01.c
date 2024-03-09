@@ -47,3 +47,11 @@ int main()
 
     return 0;
 }
+/*
+     code explain
+     * what is difference between arr[i] and only i?
+
+     Ans : i is hold only number of iteration (How many times are loop will continue).
+         >> here, arr[i] is hold the element(value).
+
+*/
