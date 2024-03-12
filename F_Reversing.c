@@ -12,7 +12,7 @@ int main()
     int size, i;
     scanf("%d", &size); // first line
 
-    int arr[size];
+    int arr[size]; // declare
     for (i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]); // second line

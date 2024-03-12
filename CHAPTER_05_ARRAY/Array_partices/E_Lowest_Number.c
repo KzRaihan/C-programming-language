@@ -32,7 +32,7 @@ int main()
         }
     }
     if (item_position != 0)
-    {
+    { // when go to if body.
         printf("%d %d\n", lowest_item, item_position + 1);
     }
     else
