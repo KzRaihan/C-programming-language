@@ -21,3 +21,10 @@ int main()
 
     return 0;
 }
+
+/*
+   * when we operation with production then, the data type always long long int
+   because , the answer is so long(big).
+
+   -> limitation of the answer: 10^19
+*/

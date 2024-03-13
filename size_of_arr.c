@@ -10,8 +10,11 @@ int main()
     // int arr_size = sizeof(arr[1] / arr[0]);
     // printf("Array size : %d\n", arr_size);
 
-    int a_size = sizeof(arr) / sizeof(arr[0]);
+    int a_size = sizeof(arr) / sizeof(arr[0]); // standard way to find array size.
     printf("Array size : %d\n", a_size);
+
+    // int a_size = sizeof(arr) / sizeof(int);
+    // printf("Array size : %d\n", a_size);
 
     return 0;
 }
