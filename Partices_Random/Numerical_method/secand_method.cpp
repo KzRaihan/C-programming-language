@@ -5,6 +5,7 @@ using namespace std;
 int main ()
 {
     float x1,x2,x3,e,f1,f2,f3;
+    int iteration=0;
     cout<<"enter the value of x1 : ";
     cin>>x1;
     cout<<"enter the value of x2 : ";
@@ -19,6 +20,7 @@ int main ()
         x3=x2-(f2*(x2-x1))/(f2-f1);
 
         f3=F(x3);
+        iteration++;
         if(fabs(f3<e)){
             cout<<"result:"<<x3;
             break;
@@ -28,5 +30,6 @@ int main ()
             x2=x3;
         }
     }
+    cout << "Number of iterations: " << iteration << endl;
     return 0;
 }
