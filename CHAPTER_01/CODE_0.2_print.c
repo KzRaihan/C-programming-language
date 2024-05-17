@@ -40,7 +40,7 @@ int main()
   return 0;
 }
 /*
- we can't print %(percentage sign) and \ back flash for single.
+ we can't print %(percentage sign) and \ back flash for single.(only using variable input for variable).
 
 
 */
