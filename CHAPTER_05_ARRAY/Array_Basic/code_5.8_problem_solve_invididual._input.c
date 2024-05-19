@@ -50,12 +50,12 @@ int main()
       >> loop body:  price_item[i] += (price_item[i] * 18.0 / 100);
 
           price_item[0] = price_item[0] + (price_item[0] * 18.0/100)
-                        =  100 + 100 * 18.0/100  // first: *  NNB: According to operator precedence and (associativity rule)
+                        = 100 + 100 * 18.0/100  // first: *  NNB: According to operator precedence and (associativity rule)
                         = 100 + 1800.00 / 100    // second: /
                         = 100 + 18.00            // third : +
                         = 118.00
    -> printf("%.2f\t", (float)price_item[i]);
-   * print = 118.0 // for type casting
+   * print = 118.0 // for padding 
 
    -> increment: i++
                 = i + 1
