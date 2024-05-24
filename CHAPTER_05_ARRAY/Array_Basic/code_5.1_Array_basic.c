@@ -5,7 +5,7 @@
     Static:
           >> Allocated(fixed) memory size.
  -> Definition:
-        Collection of Similar data types stored at contiguous memory Locations.
+       * Collection of Similar data types stored at contiguous memory Locations.
 
  -> Relation of data: in sequentially manner.
 
