@@ -7,7 +7,7 @@
 
   int arr[] = {10,20, 30, 40, 50}; // here, array size is automatic generated which is 5.
 
-  int arr[size]={100,104,108,112}; // size = 4
+  int arr[size]={100,104,108,112}; // we can't declare this way.
 */
 #include <stdio.h>
 

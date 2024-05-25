@@ -1,12 +1,16 @@
 /*
    -> write a program to enter price 3 items and their final cost with 18% gst(goods and services tax).
+
+    >> how to calculate gst:
+       formula :
+       *        regular price * gst percentage/100;
 */
 #include <stdio.h>
 
 int main()
 {
    int price_item[3];
-   printf("Enter 3 Price iterm cost: ");
+   printf("\nEnter 3 Price iterm cost: ");
 
    for (int i = 0; i < 3; i++)
    {
@@ -55,7 +59,7 @@ int main()
                         = 100 + 18.00            // third : +
                         = 118.00
    -> printf("%.2f\t", (float)price_item[i]);
-   * print = 118.0 // for padding 
+   * print = 118.0 // for padding
 
    -> increment: i++
                 = i + 1
@@ -82,7 +86,7 @@ int main()
                         = 200 + 36.00            // third : +
                         = 236.00
    -> printf("%.2f\t", (float)price_item[i]);
-   * print = 236.0 // for type casting
+   * print = 236.00 // for type casting and padding
 
      -> increment: i++
                 = i + 1
@@ -108,7 +112,7 @@ int main()
                         = 300 + 54.00            // third : +
                         = 354.00
    -> printf("%1.f\t", (float)price_item[i]);
-   * print = 354.0 // for type casting
+   * print = 354.00 // for type casting and padding
 
      -> increment: i++
                 = i + 1

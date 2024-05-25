@@ -1,7 +1,7 @@
 /*
   array input and output using loop
-  -> array index start with 0.
-  -> array index end with size - 1
+  -> array index start with:  0.
+  -> array index end with  : size - 1
 */
 #include <stdio.h>
 
@@ -28,3 +28,13 @@ int main()
 
     return 0;
 }
+/*
+ * code explain
+ here, array size : 5
+ if, i/p:
+     10 20 30 40 50
+     o/p:
+     10 20 30 40 50
+
+
+*/
